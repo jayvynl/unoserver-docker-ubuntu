@@ -1,0 +1,8 @@
+services:
+  unoserver:
+    build:
+      context: .
+    restart: always
+    container_name: unoserver
+    ports:
+      - "127.0.0.1:2003:2003"
